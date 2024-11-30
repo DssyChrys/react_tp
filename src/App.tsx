@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Consectetuer from './Components/Consectetuer/Consectetuer';
 
 function App() {
-  return (
+  /*return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,7 +21,10 @@ function App() {
         </a>
       </header>
     </div>
+  );*/
+  return(
+<Consectetuer/>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,19 @@
+.consec{
+    height: 476px;
+    width: 900px;
+    margin-left: 50px;
+
+       
+}
+.cont{
+    margin-left: 50px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 50px;
+}
+.nov{
+    margin-left: 50px;
+    color: red;
+}
