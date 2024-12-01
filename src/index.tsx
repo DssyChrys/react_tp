@@ -3,15 +3,16 @@ import App from './App';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Recentpost from './components/Recentpost/Recentpost';
 import Header from './components/Header/header';
 import Footer from './components/footer/footer';
-
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <Recentpost />
     <App />
     <Header />
     <Footer/>
