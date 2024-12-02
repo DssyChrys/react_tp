@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Consectetuer from './Components/Consectetuer/Consectetuer';
 
@@ -21,6 +20,13 @@ function App() {
           Learn React
         </a>
       </header>
+import { Tags } from './components/Tags/Tags';
+
+function App() {
+  return (
+    <div className="container">
+      <h1>  </h1>
+      <Tags />
     </div>
   );*/
   return(
