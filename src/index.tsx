@@ -3,6 +3,8 @@ import App from './App';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Header from './Components/header/header';
+import Footer from './Components/footer/footer';
 import Recentpost from './components/Recentpost/Recentpost';
 import Header from './components/Header/header';
 import Footer from './components/footer/footer';
