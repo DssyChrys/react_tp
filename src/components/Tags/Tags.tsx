@@ -3,7 +3,7 @@ import './Tags.css';
 
 export const Tags = () => {
   return (
-    <div className="container">
+    <div className="containert">
       <div className="tags-section">
         <h2 className="tags-title">Tags</h2>
         <div className="tags-container">

@@ -1,7 +1,12 @@
 import './footer.css'
 export default function Footer(){
     return(
-        <div className='footer'>
+
+
+
+
+        <div className='bigfooter'>
+                             <div className='footer'>
             <div className='about'>
                     <h1>ABOUT</h1>
                     <p>Nulla quis lorem ut libero malesuada feugiat. </p>
@@ -10,7 +15,22 @@ export default function Footer(){
             </div>
             <div className='social'>
                     <h1>SOCIAL</h1>
-                    <p></p>
+                    <div>
+                            <div className="social-icons">
+                                <a href="#" className="icon">
+                                    <img src="/images/facebook.png" alt="Facebook" />
+                                </a>
+                                <a href="#" className="icon">
+                                    <img src="/images/twitter.png" alt="Twitter" />
+                                </a>
+                                <a href="#" className="icon">
+                                    <img src="/images/instagram.png" alt="Instagram" />
+                                </a>
+                                <a href="#" className="icon">
+                                    <img src="/images/pinterest.png" alt="Pinterest" />
+                                </a>
+                            </div>
+                     </div>
             </div>
             <div className='contact'>
                     <h1>CONTACT US</h1>
@@ -20,6 +40,19 @@ export default function Footer(){
                     <p>cnfo@example.com</p>
                     <p>contact@example.com</p>
             </div>
+            
         </div>
+
+
+
+
+        <hr />
+        <div className='copyright'>
+        <p>Copyright © 2024 Home Decor | Powered by Home Decor</p>
+        <p>About Us   Living Room   Kitchen    Outdoors   Contact </p>
+        </div>
+        
+        </div>
+       
     );
 }

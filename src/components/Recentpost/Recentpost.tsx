@@ -1,7 +1,7 @@
 import "./Recentpost.css";
 export default function Recentpost() {
   return (
-    <div className="leftcolonne">
+      <div className="leftcolonne">
       <form action="#" className="search-bar">
         <input type="text" placeholder="Search..." className="search-input" />
       </form>
@@ -48,5 +48,7 @@ export default function Recentpost() {
         </div>
       </div>
     </div>
+  
+   
   );
 }

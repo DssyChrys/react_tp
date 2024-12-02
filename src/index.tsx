@@ -1,25 +1,35 @@
 import React from 'react';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './Components/header/header';
-import Footer from './Components/footer/footer';
-import Recentpost from './components/Recentpost/Recentpost';
 import Header from './components/Header/header';
 import Footer from './components/footer/footer';
+import Recentpost from './components/Recentpost/Recentpost';
+import Grid from './components/Grid/Grid';
+import { Tags } from './components/Tags/Tags';
+import Consectetuer from './components/Consectetuer/Consectetuer';
+import Paginate from './components/paginate/paginate';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Recentpost />
-    <App />
-    <Header />
-    <Footer/>
+     <Header />
+      <div className="container_p">
+        <div className="left-column">
+          <Consectetuer />
+          <Grid/>
+          <Paginate/>
+        </div>
+        <div className="right-column">
+          <Recentpost />
+          <Tags/>
+        </div>
+      </div>
+      <Footer/>
   </React.StrictMode>
 );
 

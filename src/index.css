@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,26 +14,23 @@ code {
 }
 
 
-.container {
+.container_p {
   display: flex;
-  gap: 20px;
-  width: 60%;
+  gap: 30px;
+  width: 75%;
   justify-content: center;
-  margin: 0 auto;
-  padding-top: 5px;
-  margin-bottom: 30px;
-  background-color: aqua;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.left-columnf {
-  flex: 7.5;
-  padding: 5px;
-  background-color: black;
-}
-
-.right-columnf {
-  flex: 2.5;
+.left-column {
+  flex: 7.5; 
   padding: 5px;
   border-radius: 8px;
-  background-color: brown;
+}
+
+.right-column {
+  flex: 2.5; 
+  padding: 5px;
+  border-radius: 8px;
 }

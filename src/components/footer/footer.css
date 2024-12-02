@@ -1,33 +1,93 @@
-body{
+body {
     margin: 0;
-}
-.footer{
-    display: flex;
-    gap: 70px;
-    align-items: center; 
+  }
+  .bigfooter{
+    gap: 10px;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 0px;
-    padding: 10px 20px;
+    padding: 10px;
     font-family: Arial, sans-serif;
-    color: white; 
-    justify-content: center;
+    color: white;
     width: 100%;
     background-color: black;
-}
-.footer .about p{
-    align-items: center; 
+  }
+  .copyright{
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin-left: 200px;
+  }
+  .bigfooter hr{
+    margin-left:auto ;
+    margin-right: auto;
+  }
+  .footer {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
     font-family: Arial, sans-serif;
-    color: white; 
-    justify-content: center;
+    color: white;
     width: 100%;
-}
-.footer .contact p{
+    background-color: black;
+  }
+  
+  .footer > div {
+    flex: 1; 
+    max-width: 20%; 
+    text-align: center;
+  }
+  
+  .footer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    line-height: 1.5; 
+    margin: 5px 0; 
+  }
+  
+  .footer .about,
+  .footer .social,
+  .footer .contact {
+    padding: 10px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center; 
     align-items: center; 
+    gap: 20px; 
+    margin: 20px 0;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
-    color: white; 
-    justify-content: center;
-    width: 100%;
-}
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .icon img {
+    width: 24px; 
+    height: 24px;
+    margin-left: 2px;
+    margin-top: 7px;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+  }
+  

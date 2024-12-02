@@ -1,0 +1,35 @@
+.consec{
+    height: 476px;
+    width: 100px;
+    margin-left: 20px;       
+}
+.cont{
+    margin-left: 20px;
+    width: 1000px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.nov{
+    margin-left: 20px;
+    color: #FF0E47;
+}
+.img{
+    height: auto;
+    width: 1000px;
+    margin: 0;
+}
+.cont2 p{
+    margin-left: 20px;
+}
+.cont hr {
+    border: none; 
+    height: 2px;
+    background-color: black;
+    margin: 10px 0; 
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  

@@ -1,23 +1,22 @@
 .search-bar{
-    width:80% ;
-    
+    width:100% ;
+    margin-top: 20px;
 }
 input {
-  margin: 4px;
   padding: 4px;
-  width: 30%;
+  width: 100%;
   height: 30px;
 
 }
 .Articles {
-  margin-top: 20px;
-  width: 25%;
-  border: 4px solid rgb(201, 194, 194);
+  margin-top: 50px;
+  
+  border: 5px solid #ddd;
 }
 .Articles h2 {
   margin-left: 10px;
 }
-img {
+.Articles img{
   width: 75px;
   height: 75px;
   margin-left: 10px;
@@ -26,7 +25,8 @@ img {
 
 a {
   text-decoration: none;
-  color: red;
+  color: #FF0E47  ;
+  font-weight: bold;
 }
 .article-r1,.article-r2,.article-r3,.article-r4,.article-r5 {
   display: flex;

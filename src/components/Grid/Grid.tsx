@@ -1,7 +1,6 @@
-import React from 'react';
-import salon from '../assets/images/salon.jpg'
-import cuisine from '../assets/images/cuisine.jpg'
-import sofa from '../assets/images/sofa.jpg'
+import salon from '../../assets/images/salon.jpg'
+import cuisine from '../../assets/images/cuisine.jpg'
+import sofa from '../../assets/images/sofa.jpg'
 import './Grid.css'
 
 const Grid = () => {
@@ -20,7 +19,6 @@ const Grid = () => {
                     />
                     <p className="fs-5">Cillum corrupti accumsan non cumque alias<br/> ipsa, platea! Mollis auctor, repellendus sagittis?<br/> Corporis dictumst mollis, curae. Eaque, quam per,<br/> praesent pretium eu non cumque animi dolorem</p>
                     <p className="fs-5 text-danger">Read More</p>
-
 
                 </div>
                 
