@@ -4,6 +4,7 @@ export default function Recentpost() {
       <div className="leftcolonne">
       <form action="#" className="search-bar">
         <input type="text" placeholder="Search..." className="search-input" />
+        <i className="bx bx-search " style={{marginLeft:"330px",top: "-33px", position:"relative", fontSize:"25px"}}></i>
       </form>
       <div className="Articles">
         <h2>Recent Posts</h2>
