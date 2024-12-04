@@ -1,12 +1,17 @@
-import './header.css';
+import './header2.css';
 import { Link } from 'react-router-dom'
  
-export default function Header(){
+interface Header2Props{
+    title:string;
+    content:string;
+    background:string;
+}
+export default function Header2(props: Header2Props){
     return(
-        <div className='header'>
-                <div className='navbar'>
+        <div className='header2' style={{backgroundImage: `url(${props.background})` }}>
+                <div className='navbar2'>
                 <nav>
-                    <div className="image">
+                    <div className="image2">
                         <Link to="/" ><img src="/image/logo.png" alt="TechWire Logo" /></Link>
                     </div>
                     <ul>
@@ -14,16 +19,14 @@ export default function Header(){
                         <Link to='/living'><li>Living room</li></Link>                                               
                         <Link to='/kitchen'><li>Kitchen</li></Link>   
                         <Link to='/outdoor'><li>Outdoor</li></Link>                       
-                        <Link to='/contact'><li>Contact</li></Link>                        
-
+                        <Link to='/contact'><li>Contact</li></Link>       
                     </ul>
                 </nav>
                 </div>
 
-                <div className='text'>
-                    <h1>Coming Home Never Felt So Good</h1>
-                    <p>Quam a diamlorem explicabo quos fugit, ut aliquam modi.</p>
-                    <h4>FIND YOUR STYLE</h4>
+                <div className='text2'>
+                    <h1>{props.title}</h1>
+                    <p>{props.content}</p>
                 </div>
         </div>
     );
