@@ -8,7 +8,10 @@ interface Header2Props{
 }
 export default function Header2(props: Header2Props){
     return(
-        <div className='header2' style={{backgroundImage: `url(${props.background})` }}>
+        <div className='header2' style={{backgroundImage:  `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(${props.background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+       }}>
                 <div className='navbar2'>
                 <nav>
                     <div className="image2">

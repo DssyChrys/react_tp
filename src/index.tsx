@@ -51,8 +51,8 @@ root.render(
                           content="uuiguhiu"
                           // image en background doit etre une url
                           background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
-                          //elisee fait appael de ces composants ici
                       /> 
+                      <p>elisee</p>
                   </>
               }
           />
@@ -65,8 +65,8 @@ root.render(
                           content="uuiguhiu"
                           // image en background doit etre une url
                           background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
-                          //farhan fait appel de ces composans ici
                       /> 
+                      <p>farhan</p>
                   </>
               }
           />
@@ -79,8 +79,8 @@ root.render(
                           content="uuiguhiu"
                           // image en background doit etre une url
                           background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
-                          //hilal fait appel de ces composans ici
                       /> 
+                      <p>hilal</p>
                   </>
               }
           />
@@ -93,8 +93,8 @@ root.render(
                           content="uuiguhiu"
                           // image en background doit etre une url
                           background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
-                          //kenneth fait appel de ces composans ici
-                      /> 
+                      />
+                      <p>kenneth</p> 
                   </>
               }
           />
@@ -103,12 +103,13 @@ root.render(
               element={
                   <>
                         <Header2
-                          title="Title"
-                          content="uuiguhiu"
+                          title="Get in Touch"
+                          content=""
                           // image en background doit etre une url
-                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
-                           //chrys fait appel de ces composans ici
-                      /> 
+                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2020/02/lady-in-balcony.jpg"
+                        /> 
+                        <p></p>
+                        <Footer />
                   </>
               }
           />
