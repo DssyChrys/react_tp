@@ -13,7 +13,10 @@ code {
     monospace;
 }
 
-
+.leaflet-container {
+  height: 100vh;
+  width: 100wh;
+}
 .container_p {
   display: flex;
   gap: 30px;

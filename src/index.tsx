@@ -14,10 +14,23 @@ import Consectetuer from './components/Consectetuer/Consectetuer';
 import Paginate from './components/paginate/paginate';
 import Header2 from './components/header2/header2';
 import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
+import Map from "./components/map/map";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const articles = [
+    {
+      p:"",
+      h1: "salut",
+      img: "images/hero01-free-img-150x150 (1).jpg",
+      p1: "Cursus iaculis etiam in In nullam donec sem sed ",
+      p2:"",
+      p3:"",
+      p4:"",
+
+    },
+  ];
 root.render(
   <React.StrictMode>
   <Router>
@@ -30,8 +43,12 @@ root.render(
                       <div className="container_p">
                           <div className="left-column">
                               <Consectetuer />
-                              <Grid />
-                              <Paginate />
+                              <Grid articles={articles}/>
+                              <Paginate 
+                                x={1}
+                                y={2}
+                                z={3}
+                              />
                           </div>
                           <div className="right-column">
                               <Recentpost />
@@ -75,15 +92,26 @@ root.render(
               element={
                   <>
                         <Header2
-                          title="Title"
-                          content="uuiguhiu"
+                          title="Kitchen"
+                          content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.Home » Kitchen"
                           // image en background doit etre une url
-                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
+                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic26-free-img.jpg"
                       /> 
-                      <p>hilal</p>
+                       <div className="container_p">
+                             <div className="left-column">
+                                  <Consectetuer />
+                                     <Grid />
+                                      
+                                     </div>
+                                 <div className="right-column">
+                                    <Recentpost />
+                                              <Tags />
+                                                     </div>
+                                                    </div>
+                                                <Footer />
                   </>
-              }
-          />
+                    }
+                />
           <Route
               path="/outdoor"
               element={
@@ -118,7 +146,7 @@ root.render(
                           // image en background doit etre une url
                           background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2020/02/lady-in-balcony.jpg"
                         /> 
-                        <p></p>
+                        <Map />
                         <Footer />
                   </>
               }
