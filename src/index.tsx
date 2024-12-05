@@ -14,8 +14,8 @@ import Consectetuer from './components/Consectetuer/Consectetuer';
 import Paginate from './components/paginate/paginate';
 import Header2 from './components/header2/header2';
 import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
+import About from './components/About/About';
 import Map from "./components/map/map";
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -64,12 +64,13 @@ root.render(
               element={
                   <>
                         <Header2
-                          title="Title"
-                          content="uuiguhiu"
-                          // image en background doit etre une url
-                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
+                          title="Know More"
+                          content="About Us"
+                          
+                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2020/02/lady-in-balcony.jpg"
                       /> 
-                      <p>elisee</p>
+                      <About/>
+                      <Footer/>
                   </>
               }
           />

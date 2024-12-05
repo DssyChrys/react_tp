@@ -28,8 +28,9 @@ export default function Header2(props: Header2Props){
                 </div>
 
                 <div className='text2'>
-                    <h1>{props.title}</h1>
-                    <p>{props.content}</p>
+                    <p className="fw-bold fs-1">{props.title}</p>
+                    <h1 >{props.content}</h1>
+                    
                 </div>
         </div>
     );
