@@ -75,15 +75,26 @@ root.render(
               element={
                   <>
                         <Header2
-                          title="Title"
-                          content="uuiguhiu"
+                          title="Kitchen"
+                          content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.Home » Kitchen"
                           // image en background doit etre une url
-                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
+                          background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic26-free-img.jpg"
                       /> 
-                      <p>hilal</p>
+                       <div className="container_p">
+                             <div className="left-column">
+                                  <Consectetuer />
+                                     <Grid />
+                                      
+                                     </div>
+                                 <div className="right-column">
+                                    <Recentpost />
+                                              <Tags />
+                                                     </div>
+                                                    </div>
+                                                <Footer />
                   </>
-              }
-          />
+                    }
+                />
           <Route
               path="/outdoor"
               element={
