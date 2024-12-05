@@ -59,6 +59,9 @@
      font-size: 5rem;
      font-weight: bold;
      color: white;
+     margin-top: -100px;
+     
+
   } 
   .text2 p{
      text-align: center;   
@@ -68,6 +71,7 @@
      font-size: 25px;
      font-weight: light;
      color: white;
+     margin-bottom: -140px;
   } 
   .text2 h4{
      text-align: center;   
@@ -81,6 +85,5 @@
      color: white;
   } 
   
-   
    
    
