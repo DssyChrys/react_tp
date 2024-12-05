@@ -17,6 +17,7 @@ const Grid = ({articles}:articleBase) => {
     return (
         <div>
             <div className="grid">
+
             {articles.map((article, index) => (  
 
                             <div className="container my-5">
@@ -31,9 +32,6 @@ const Grid = ({articles}:articleBase) => {
                             />
                             <p className="fs-5">{article.p1}<br/> {article.p2}<br/> {article.p3}<br/>{article.p4}</p>
                             <p className="fs-5 text-danger">Read More</p>
-
-                            </div>
-
 
             ))}
 

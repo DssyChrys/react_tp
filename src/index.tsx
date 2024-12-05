@@ -117,12 +117,22 @@ root.render(
               element={
                   <>
                         <Header2
-                          title="Title"
-                          content="uuiguhiu"
+                          title="Outdoors"
+                          content="Home » Outdoors"
                           // image en background doit etre une url
                           background="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg"
                       />
-                      <p>kenneth</p> 
+                      <div className="container_p">
+                          <div className="left-column">
+                              <Consectetuer />
+                              <Grid />
+                          </div>
+                          <div className="right-column">
+                              <Recentpost />
+                              <Tags />
+                          </div>
+                      </div> 
+                      <Footer />
                   </>
               }
           />
