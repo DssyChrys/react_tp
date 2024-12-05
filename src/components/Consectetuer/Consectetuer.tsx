@@ -5,18 +5,17 @@ import "./Consectetuer.css";
 function Consectetuer() {
     return(
                  <div className='cont'>
-            <p className='bold'>Consectetuer vehicula ab</p>
-            <p className='nov'>November 21,/Kitchen,Lifestyle</p>
+            <p className='bold'>Icinia soluta. Lacus quas.</p>
+            <p className='nov'>November 7, 2017 / Outdoors</p>
             <span className='consec'>
             
-                <img className="img" src="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic26-free-img.jpg" />
+                <img className="img" src="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic04-free-img.jpg" />
                 </span>
                 <div className='cont2'>
-                <p>Consectetuer vehicula ab? Blandit? Suspendisse feugiat elementum dictum! Minus eum
-                eveniet, praesentium elementum interdum! Sodales, metus, velit voluptatibus voluptas lorem,
-                etiam vulputate? Aenean possimus montes fugiat […]</p>
+                <p>Dolor sit amet consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed non mauris vitae erat consequat auctor eu in elit. Class […]</p>
+                <p className="fs-5 text-danger">Read More</p>
                 </div>
-                <hr/>
+        <hr/>
         </div>
     );
 };
