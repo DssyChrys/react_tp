@@ -2,8 +2,9 @@ import './header2.css';
 import { Link } from 'react-router-dom'
  
 interface Header2Props{
+    aboutus?:string;
     title:string;
-    content:string;
+    content?:string;
     background:string;
 }
 export default function Header2(props: Header2Props){
@@ -28,8 +29,14 @@ export default function Header2(props: Header2Props){
                 </div>
 
                 <div className='text2'>
-                    <p className="fw-bold fs-1">{props.title}</p>
-                    <h1 >{props.content}</h1>
+                {props.aboutus !== undefined && (
+                    <h3 className='about'>{props.aboutus}</h3>
+                )}
+                    <h1 >{props.title}</h1>
+
+                {props.content !== undefined && (
+                    <p>{props.content}</p>
+                )}
                     
                 </div>
         </div>

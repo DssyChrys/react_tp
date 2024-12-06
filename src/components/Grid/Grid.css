@@ -1,6 +1,8 @@
 .grid{
-    display:flex;
-    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes fixes */
+    gap: 20px; /* Espacement entre les éléments */
+    padding: 20px;
 }
 
 
