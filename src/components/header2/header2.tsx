@@ -16,7 +16,7 @@ export default function Header2(props: Header2Props){
                 <div className='navbar2'>
                 <nav>
                     <div className="image2">
-                        <Link to="/" ><img src="/image/logo.png" alt="TechWire Logo" /></Link>
+                        <Link to="/" ><img src="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/Interior-logo4-free-img.png" alt="TechWire Logo" /></Link>
                     </div>
                     <ul>
                         <Link to='/about us'><li>About us</li></Link>

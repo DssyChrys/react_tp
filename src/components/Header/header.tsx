@@ -7,7 +7,7 @@ export default function Header(){
                 <div className='navbar'>
                 <nav>
                     <div className="image">
-                        <Link to="/" ><img src="/image/logo.png" alt="TechWire Logo" /></Link>
+                        <Link to="/" ><img src="https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/Interior-logo4-free-img.png" alt="TechWire Logo" /></Link>
                     </div>
                     <ul>
                         <Link to='/about us'><li>About us</li></Link>
